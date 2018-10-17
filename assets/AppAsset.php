@@ -5,7 +5,7 @@
  * 
  */
 
-namespace backend\themes\fw7\assets;
+namespace sheillendra\fw7\assets;
 
 use yii\web\AssetBundle;
 
@@ -14,14 +14,14 @@ class AppAsset extends AssetBundle {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'fw7/css/app.css',
+        'css/fw7/app.css',
     ];
     public $js = [
-        'fw7/js/routes.js',
-        'fw7/js/app.js',
+        'js/fw7/routes.js',
+        'js/fw7/app.js',
     ];
 
     public $depends = [
-        '\backend\themes\fw7\assets\Fw7Asset'
+        '\sheillendra\fw7\assets\Fw7Asset'
     ];
 }

@@ -5,19 +5,18 @@
  * 
  */
 
-namespace backend\themes\fw7\assets;
+namespace sheillendra\fw7\assets;
 
 use yii\web\AssetBundle;
 
 class Fw7Asset extends AssetBundle {
 
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $sourcePath = '@sheillendra/fw7/assets/template/v3.1.1';
     public $css = [
-        'fw7/framework7-2.2.1/dist/css/framework7.min.css',
+        'css/framework7.min.css',
     ];
     public $js = [
-        'fw7/framework7-2.2.1/dist/js/framework7.min.js',
+        'js/framework7.min.js',
     ];
 //    public $depends = [
 //        

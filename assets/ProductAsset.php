@@ -5,7 +5,7 @@
  * 
  */
 
-namespace backend\themes\fw7\assets;
+namespace sheillendra\fw7\assets;
 
 use yii\web\AssetBundle;
 
@@ -20,7 +20,7 @@ class ProductAsset extends AssetBundle {
         'fw7/js/product.js',
     ];
     public $depends = [
-        '\backend\themes\fw7\assets\AppAsset'
+        '\sheillendra\fw7\assets\AppAsset'
     ];
 
 }

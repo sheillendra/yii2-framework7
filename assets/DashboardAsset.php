@@ -5,7 +5,7 @@
  * 
  */
 
-namespace backend\themes\fw7\assets;
+namespace sheillendra\fw7\assets;
 
 use yii\web\AssetBundle;
 
@@ -20,8 +20,8 @@ class DashboardAsset extends AssetBundle {
         'fw7/js/dashboard.js',
     ];
     public $depends = [
-        '\backend\themes\fw7\assets\C3Asset',
-        '\backend\themes\fw7\assets\AppAsset'
+        '\sheillendra\fw7\assets\C3Asset',
+        '\sheillendra\fw7\assets\AppAsset'
     ];
 
 }

@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace backend\themes\fw7\assets;
+namespace sheillendra\fw7\assets;
 
 use yii\web\AssetBundle;
 

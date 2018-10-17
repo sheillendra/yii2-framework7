@@ -3,7 +3,7 @@
 /* @var $content string */
 
 use yii\helpers\Html;
-use backend\themes\fw7\assets\AppAsset;
+use sheillendra\fw7\assets\AppAsset;
 
 AppAsset::register($this);
 ?>

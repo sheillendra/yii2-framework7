@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace backend\themes\fw7\assets;
+namespace sheillendra\fw7\assets;
 
 use yii\web\AssetBundle;
 
@@ -24,7 +24,7 @@ class C3Asset extends AssetBundle {
         'c3.min.js'
     ];
     public $depends = [
-        'backend\themes\fw7\assets\D3Asset',
+        'sheillendra\fw7\assets\D3Asset',
     ];
     public $publishOptions = [
         'only' => [

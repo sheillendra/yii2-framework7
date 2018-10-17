@@ -2,7 +2,7 @@
 /* @var $this \yii\web\View */
 
 use yii\helpers\Html;
-use backend\themes\fw7\assets\LoginAsset;
+use sheillendra\fw7\assets\LoginAsset;
 
 LoginAsset::register($this);
 $this->title = 'Login';
